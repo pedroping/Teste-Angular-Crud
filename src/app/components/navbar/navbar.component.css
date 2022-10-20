@@ -1,0 +1,27 @@
+.navbar {
+    justify-content: space-between;
+    list-style-type: none;
+    display: flex;
+    text-align: right;
+    padding: 10px;
+    background-color: azure;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    text-align: right;
+}
+
+li {
+    padding: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+h2 {
+    padding-top: 10px;
+    padding-left: 10px;
+}

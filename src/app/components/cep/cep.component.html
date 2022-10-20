@@ -1,0 +1,20 @@
+<div class="cep-container">
+    <form>
+        <h2>Buscar um cep!</h2>
+        <input type="text" 
+            [(ngModel)]="idCep"
+            name="idCep"
+            placeholder="Digite um Cep"
+        >
+        <button (click)="getCep(idCep)">Buscar</button>
+    </form>
+    <ul class="lista" *ngIf="mostrar">
+        <li >Bairro: {{Cep.bairro}}</li>
+        <li >Cidade: {{Cep.localidade}}</li>
+        <li >Estado: {{Cep.uf}}</li>
+        <li >Logradouro: {{Cep.logradouro}}</li>
+        <li >DDD: {{Cep.ddd}}</li>
+    </ul>
+
+</div>
+

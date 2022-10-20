@@ -1,0 +1,25 @@
+<h2>Mais detalhe sobre o Imovel: {{Imovel[Id-1].nome}}</h2> 
+
+
+<ul class="lista">
+    <li>Proprietario: {{Imovel[Id-1].proprietarioId}}</li>
+    <li>Cep: {{Imovel[Id-1].cep}}</li>
+    <li>Banheiros: {{Imovel[Id-1].banheiros}}</li>
+    <li>Tipos: {{Imovel[Id-1].tipos}}</li>
+    <li>Valor: R$ {{Imovel[Id-1].valor}}</li>
+    <li>Condominio: R$ {{Imovel[Id-1].condominio}}</li>
+    <li>Quartos: {{Imovel[Id-1].quartos}}</li>
+    <li *ngIf="Imovel[Id-1].mobiliado == true">Mobiliado: Sim</li>
+    <li *ngIf="Imovel[Id-1].mobiliado == false">Mobiliado: Não</li>
+    <li>Area: {{Imovel[Id-1].area}} M²</li>
+    <li *ngIf="Imovel[Id-1].venda == true">Venda: Sim</li>
+    <li *ngIf="Imovel[Id-1].venda == false">Venda: Não</li>
+    <li *ngIf="Imovel[Id-1].aluguel == true">Aluguel: Sim</li>
+    <li *ngIf="Imovel[Id-1].aluguel == false">Aluguel: Não</li>
+    <li>Data do anuncio: {{Imovel[Id-1].dataAnuncio}}</li>
+    <li>Rua: {{Imovel[Id-1].rua}}</li>
+    <li>Numero: {{Imovel[Id-1].numero}}</li>
+    <li>Bairro: {{Imovel[Id-1].bairro}}</li>
+    <li>Cidade: {{Imovel[Id-1].cidade}}</li>
+    <li>Estado: {{Imovel[Id-1].uf}}</li>   
+</ul>

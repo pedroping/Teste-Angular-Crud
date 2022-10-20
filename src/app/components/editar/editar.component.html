@@ -1,0 +1,4 @@
+<div>
+    <h2>Editar o Imovel: {{Imovel[Id-1].nome}}</h2>
+    <app-form (onSubmit)="editarHandler($event)" [imovelData]="Imovel[Id-1]"></app-form>
+</div>

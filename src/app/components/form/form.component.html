@@ -1,0 +1,75 @@
+<form (ngSubmit)="submit()" [formGroup]="imovelForm" #formDir="ngForm">
+    <div class="form-group">
+        <label for="cep">Cep:</label>
+        <input type="text" placeholder="Digite o Cep" formControlName="cep" required>
+    </div>
+    <div class="form-group">
+        <label for="nome">Nome:</label>
+        <input type="text" placeholder="Digite o nome do Imovel" formControlName="nome" required>
+    </div>
+    <div class="form-group">
+        <label for="banheiros">Banheiros:</label>
+        <input type="number" placeholder="Digite a quantidade de banheiros" formControlName="banheiros" required>
+    </div>
+    <div class="form-group">
+        <label for="tipos">Tipo:</label>
+        <input type="text" placeholder="Digite o tipo do imovel" formControlName="tipos" required>
+    </div>
+    <div class="form-group">
+        <label for="valor">Valor:</label>
+        <input type="number" placeholder="Digite o valor do imovel" formControlName="valor" required>
+    </div>
+    <div class="form-group">
+        <label for="condominio">Condominio:</label>
+        <input type="number" placeholder="Digite o valor do condominio" formControlName="condominio" required>
+    </div>
+    <div class="form-group">
+        <label for="quartos">Quartos:</label>
+        <input type="number" placeholder="Digite a quantidade de quartos" formControlName="quartos" required>
+    </div>
+    <div class="box">
+        <label for="mobiliado">Mobiliado:</label>
+        <input type="checkbox" placeholder="" formControlName="mobiliado" required>
+    </div>
+    <div class="form-group">
+        <label for="area">Area:</label>
+        <input type="number" placeholder="Digite a area da casa" formControlName="area" required>
+    </div>
+    <div class="box">
+        <label for="venda">A venda:</label>
+        <input type="checkbox" placeholder="" formControlName="venda" required>
+    </div>
+    <div class="box">
+        <label for="aluguel">Alugando:</label>
+        <input type="checkbox" placeholder=""  formControlName="aluguel" required>
+    </div>
+    <div class="form-group">
+        <label for="dataAnuncio">Data do dataAnucio:</label>
+        <input type="date" placeholder="Digite a data do dataAnucio" formControlName="dataAnuncio" required>
+    </div>
+    <div class="form-group">
+        <label for="rua">Rua:</label>
+        <input type="text" placeholder="Digite a rua da casa" formControlName="rua" required>
+    </div>
+    <div class="form-group">
+        <label for="numero">Numero:</label>
+        <input type="number" placeholder="Digite o numero da casa" formControlName="numero" required>
+    </div>
+    <div class="form-group">
+        <label for="bairro">Bairro:</label>
+        <input type="text" placeholder="Digite o bairro da casa" formControlName="bairro" required>
+    </div>
+    <div class="form-group">
+        <label for="cidade">Cidade:</label>
+        <input type="text" placeholder="Digite a cidade da casa" formControlName="cidade" required>
+    </div>
+    <div class="form-group">
+        <label for="uf">Estado:</label>
+        <input type="text" placeholder="Digite o estado da casa" formControlName="uf" required>
+    </div>
+    <div class="form-group">
+        <label for="proprietarioId">Nome do Proprietario:</label>
+        <input type="text" placeholder="Digite o estado da casa" formControlName="proprietarioId" required>
+    </div>
+    <input type="submit"> 
+</form>

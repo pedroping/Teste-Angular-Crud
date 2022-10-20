@@ -1,0 +1,30 @@
+.lista li {
+    list-style: none;
+    padding: 10px 20px;
+    text-align: left;
+    background: rgb(236, 245, 245);
+    border-top: 1px solid rgb(118, 206, 206);
+}
+
+.lista {
+    width: 300px;
+    padding: 0px;
+    margin: 20px auto;
+    border: 1px solid rgb(118, 206, 206); 
+}
+
+form h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+form button{
+    padding-left: 10px;
+    background-color: rgb(118, 206, 206);
+}
+.cep-container {
+    display:  grid;
+    text-align:center;
+    justify-content: center;
+    
+}
